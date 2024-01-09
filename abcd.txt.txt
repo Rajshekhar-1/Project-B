@@ -1,1 +1,65 @@
-wish you Happy New Year 2024.
+wish you Happy New Year 2024.  Git Commit 
+
+dell@RSP MINGW64 /d/git & github
+$ git config --global user.name rajshekhar
+
+dell@RSP MINGW64 /d/git & github
+$ git config --global user.email rsp6275@gmail.com
+
+dell@RSP MINGW64 /d/git & github
+$ git config --global user.email
+rsp6275@gmail.com
+
+dell@RSP MINGW64 /d/git & github
+$ git config --global user.name
+rajshekhar
+
+dell@RSP MINGW64 /d/git & github
+$ git init
+Initialized empty Git repository in D:/git & github/.git/
+
+dell@RSP MINGW64 /d/git & github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+        abcd.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dell@RSP MINGW64 /d/git & github (master)
+$
+dell@RSP MINGW64 /d/git & github (master)
+$ git add --all
+
+dell@RSP MINGW64 /d/git & github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   abcd.txt.txt
+
+
+dell@RSP MINGW64 /d/git & github (master)
+$ git add -A
+
+dell@RSP MINGW64 /d/git & github (master)
+$ git commit -m "Intial commit"
+[master (root-commit) 887db49] Intial commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+ create mode 100644 abcd.txt.txt
+
+dell@RSP MINGW64 /d/git & github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
